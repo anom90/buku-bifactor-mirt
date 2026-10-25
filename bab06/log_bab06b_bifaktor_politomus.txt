@@ -1,0 +1,202 @@
+Loading required package: stats4
+Loading required package: lattice
+[1] 1821   24
+  TP1 TP2 TP3 TP4 TP5 TP6 OR1 OR2 OR3 OR4 OR5 OR6 BH1 BH2 BH3 BH4 BH5 BH6 PY1
+0 804 437 879 519 483 650 445 930 878 779 445 873 885 535 852 920 542 769 771
+1 142 531 267 175 564 628 279 266 515 279 393 378 395 247 374  74 143 397 325
+2 500 417 227 201 486  27 453 132 214 376 504 303 124  65  42 313 151 112 391
+3 375 436 448 926 288 516 644 493 214 387 479 267 417 974 553 514 985 543 334
+  PY2 PY3 PY4 PY5 PY6
+0 347 729 697 765 827
+1 363 512 562 447 283
+2 287  26  79 190 191
+3 824 554 483 419 520
+
+Call:
+bfactor(data = butir, model = spesifik, SE = TRUE, verbose = FALSE)
+
+Full-information item factor analysis with 5 factor(s).
+Converged within 1e-04 tolerance after 40 EM iterations.
+mirt version: 1.48 
+M-step optimizer: BFGS 
+EM acceleration: Ramsay 
+Number of rectangular quadrature: 31
+Latent density type: bfactor 
+
+Information matrix estimated with method: Oakes
+Second-order test: model is a possible local maximum
+Condition number of information matrix =  1254.559
+
+Log-likelihood = -46306.41
+Estimated parameters: 120 
+AIC = 92852.82
+BIC = 93513.68; SABIC = 93132.44
+G2 (1e+10) = 65296.09, p = 1
+RMSEA = 0, CFI = NaN, TLI = NaN
+TOTAL:   Data  Estep  Mstep     SE   Post 
+43.025  0.082  5.280  5.575 31.918  0.001 
+$items
+       a1    a2    a3    a4    a5     d1     d2     d3
+TP1 1.401 1.295 0.000 0.000 0.000  0.374 -0.123 -2.117
+TP2 0.670 0.743 0.000 0.000 0.000  1.379 -0.150 -1.385
+TP3 1.729 0.990 0.000 0.000 0.000  0.103 -0.877 -1.824
+TP4 1.770 1.237 0.000 0.000 0.000  1.552  0.811  0.033
+TP5 1.587 0.408 0.000 0.000 0.000  1.459 -0.483 -2.415
+TP6 0.775 0.944 0.000 0.000 0.000  0.746 -1.116 -1.206
+OR1 1.368 0.000 0.130 0.000 0.000  1.505  0.550 -0.830
+OR2 2.447 0.000 1.176 0.000 0.000 -0.115 -1.346 -2.016
+OR3 0.876 0.000 1.395 0.000 0.000  0.088 -1.737 -2.857
+OR4 2.019 0.000 0.255 0.000 0.000  0.473 -0.556 -2.156
+OR5 1.685 0.000 0.642 0.000 0.000  1.713  0.232 -1.603
+OR6 2.024 0.000 0.608 0.000 0.000  0.124 -1.365 -2.920
+BH1 2.366 0.000 0.000 1.273 0.000  0.099 -1.718 -2.396
+BH2 2.185 0.000 0.000 0.055 0.000  1.506  0.491  0.237
+BH3 2.507 0.000 0.000 0.269 0.000  0.214 -1.416 -1.615
+BH4 2.264 0.000 0.000 1.279 0.000 -0.045 -0.360 -1.816
+BH5 2.680 0.000 0.000 1.267 0.000  1.787  1.044  0.322
+BH6 2.314 0.000 0.000 0.213 0.000  0.552 -1.076 -1.573
+PY1 1.885 0.000 0.000 0.000 0.653  0.500 -0.688 -2.415
+PY2 0.467 0.000 0.000 0.000 0.244  1.524  0.471 -0.207
+PY3 0.996 0.000 0.000 0.000 0.197  0.477 -0.931 -1.010
+PY4 0.752 0.000 0.000 0.000 0.999  0.608 -1.065 -1.332
+PY5 2.154 0.000 0.000 0.000 0.540  0.544 -1.222 -2.111
+PY6 0.833 0.000 0.000 0.000 1.775  0.288 -0.739 -1.492
+
+$means
+ G S1 S2 S3 S4 
+ 0  0  0  0  0 
+
+$cov
+   G S1 S2 S3 S4
+G  1  0  0  0  0
+S1 0  1  0  0  0
+S2 0  0  1  0  0
+S3 0  0  0  1  0
+S4 0  0  0  0  1
+
+          G     S1     S2     S3     S4  SE_G SE_S1 SE_S2 SE_S3 SE_S4
+[1,]  1.197  0.214  0.038 -0.149  0.364 0.303 0.753 0.717 0.784 0.674
+[2,] -0.902  0.360 -0.176 -0.602  0.395 0.328 0.718 0.807 0.848 0.624
+[3,]  2.241  0.539  0.787  0.203  0.381 0.497 0.744 0.807 0.931 0.722
+[4,] -0.174 -0.313  0.706 -0.511 -0.181 0.276 0.673 0.712 0.741 0.741
+[5,] -1.649 -0.203 -0.481 -0.238 -0.389 0.444 0.764 0.871 0.922 0.793
+[6,] -1.475  0.055 -0.520  0.704  0.961 0.395 0.765 0.869 0.832 0.703
+
+Call:
+bfactor(data = butir2, model = spesifik2, itemtype = "gpcm", 
+    SE = TRUE, verbose = FALSE)
+
+Full-information item factor analysis with 3 factor(s).
+Converged within 1e-04 tolerance after 220 EM iterations.
+mirt version: 1.48 
+M-step optimizer: BFGS 
+EM acceleration: Ramsay 
+Number of rectangular quadrature: 31
+Latent density type: bfactor 
+
+Information matrix estimated with method: Oakes
+Second-order test: model is a possible local maximum
+Condition number of information matrix =  1192.853
+
+Log-likelihood = -23281.71
+Estimated parameters: 60 
+AIC = 46683.42
+BIC = 47013.85; SABIC = 46823.23
+G2 (16777155) = 19486.47, p = 1
+RMSEA = 0, CFI = NaN, TLI = NaN
+       a1    a2    a3    d1     d2     d3
+TP1 0.666 0.493 0.000 0.698  1.292  0.749
+TP2 1.995 1.719 0.000 2.109  2.883  2.291
+TP3 0.793 0.227 0.000 1.725  3.085  4.396
+TP4 0.626 0.438 0.000 0.848  0.046 -2.635
+TP5 1.858 0.559 0.000 1.452  2.748  1.916
+TP6 1.073 0.465 0.000 1.094  1.004 -1.243
+OR1 0.602 0.000 0.151 0.240 -0.637 -1.668
+OR2 1.759 0.000 0.729 1.572  2.422  1.315
+OR3 2.280 0.000 0.887 0.241 -0.457 -3.021
+OR4 2.277 0.000 1.014 0.944  0.574 -0.126
+OR5 2.189 0.000 1.189 1.884  2.563  2.665
+OR6 0.979 0.000 1.441 2.481  3.413  2.778
+
+Call:
+bfactor(data = butir3, model = spesifik2, model2 = kendala.pcm, 
+    itemtype = "gpcm", SE = TRUE, verbose = FALSE)
+
+Full-information item factor analysis with 3 factor(s).
+Converged within 1e-04 tolerance after 69 EM iterations.
+mirt version: 1.48 
+M-step optimizer: nlminb 
+EM acceleration: Ramsay 
+Number of rectangular quadrature: 31
+Latent density type: bfactor 
+
+Information matrix estimated with method: Oakes
+Second-order test: model is a possible local maximum
+Condition number of information matrix =  87.36742
+
+Log-likelihood = -24534.73
+Estimated parameters: 39 
+AIC = 49147.46
+BIC = 49362.24; SABIC = 49238.34
+G2 (16777176) = 21898.46, p = 1
+RMSEA = 0, CFI = NaN, TLI = NaN
+       d1     d2     d3
+TP1 0.019 -0.346 -1.523
+TP2 0.394 -1.140 -3.043
+TP3 0.899 -0.066 -1.283
+TP4 1.148  1.773  0.657
+TP5 0.586  0.391 -0.137
+TP6 1.258  1.965  2.585
+OR1 1.214  1.202  0.115
+OR2 0.321 -0.204 -1.187
+OR3 1.170  2.091  2.233
+OR4 0.175 -0.286 -1.000
+OR5 1.324  2.497  2.529
+OR6 1.581  2.300  2.149
+       G    S1    S2
+G  0.988 0.000 0.000
+S1 0.000 0.593 0.000
+S2 0.000 0.000 1.252
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Golden Gate 27.0.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Makassar
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+[1] mirt_1.48        lattice_0.22-9   openxlsx_4.2.8.1
+
+loaded via a namespace (and not attached):
+ [1] GPArotation_2026.7-1 future_1.75.0        generics_0.1.4      
+ [4] class_7.3-23         stringi_1.8.7        listenv_1.0.0       
+ [7] digest_0.6.39        magrittr_2.0.5       grid_4.6.1          
+[10] splines2_0.5.4       beepr_2.0            qs2_0.2.2           
+[13] R.oo_1.27.1          Matrix_1.7-5         R.utils_2.13.0      
+[16] zip_3.0.1            sessioninfo_1.2.4    brio_1.1.5          
+[19] e1071_1.7-17         gridExtra_2.3.1      audio_0.1-12        
+[22] mgcv_1.9-4           dcurver_0.9.3        permute_0.9-10      
+[25] pbapply_1.7-4        codetools_0.2-20     cli_3.6.6           
+[28] rlang_1.3.0          R.methodsS3_1.8.2    parallelly_1.48.0   
+[31] future.apply_1.20.2  splines_4.6.1        otel_0.2.0          
+[34] vegan_2.7-5          tools_4.6.1          parallel_4.6.1      
+[37] dplyr_1.2.1          nanonext_1.10.1      globals_0.19.1      
+[40] Deriv_4.3.0          vctrs_0.7.3          R6_2.6.1            
+[43] proxy_0.4-29         lifecycle_1.0.5      stringfish_0.19.0   
+[46] SimDesign_2.25       MASS_7.3-65          cluster_2.1.8.2     
+[49] pkgconfig_2.0.3      clipr_0.8.1          gtable_0.3.6        
+[52] RcppParallel_6.2.0   progressr_1.0.0      pillar_1.11.1       
+[55] glue_1.8.1           Rcpp_1.1.2           tibble_3.3.1        
+[58] tidyselect_1.2.1     nlme_3.1-169         mirai_2.7.2         
+[61] testthat_3.3.2       compiler_4.6.1      

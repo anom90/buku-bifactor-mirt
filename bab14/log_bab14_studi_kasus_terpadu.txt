@@ -1,0 +1,154 @@
+Loading required package: stats4
+Loading required package: lattice
+This is lavaan 0.7-2
+lavaan is FREE software! Please report any bugs.
+[1] 2000   60
+[1] 0
+
+ 1  2 
+36 24 
+    N mean.total sd.total std.alpha alpha SEM.alpha mean.r  sd.r
+ 2000     37.661   19.243     0.948 0.942     4.622  0.235 0.094
+ dalam  antar 
+ 0.053 -0.030 
+            Q3.besar
+dalam.domain FALSE TRUE
+       FALSE  1440    0
+       TRUE    325    5
+[1] TRUE
+[1] 73
+[1] TRUE
+             AIC    SABIC       HQ      BIC    logLik       X2 df p
+mod.uni 158158.0 158507.1 158454.2 158964.6 -78935.02              
+mod.bif 154821.4 155315.9 155240.9 155964.0 -77206.71 3456.619 60 0
+             AIC    SABIC       HQ      BIC    logLik       X2 df p
+mod.kor 156093.2 156466.5 156409.9 156955.7 -77892.60              
+mod.bif 154821.4 155315.9 155240.9 155964.0 -77206.71 1371.776 50 0
+     KM   IR   AD   PL   PM
+KM 1.00 0.77 0.82 0.76 0.79
+IR 0.77 1.00 0.87 0.82 0.83
+AD 0.82 0.87 1.00 0.84 0.89
+PL 0.76 0.82 0.84 1.00 0.82
+PM 0.79 0.83 0.89 0.82 1.00
+            M2   df p RMSEA RMSEA_5 RMSEA_95 SRMSR   TLI   CFI
+stats 7236.223 1710 0  0.04   0.039    0.041 0.035 0.975 0.975
+            M2   df p RMSEA RMSEA_5 RMSEA_95 SRMSR   TLI   CFI
+stats 3214.629 1700 0 0.021    0.02    0.022 0.032 0.993 0.993
+           M2   df     p RMSEA RMSEA_5 RMSEA_95 SRMSR TLI CFI
+stats 1713.16 1650 0.136 0.004       0    0.007 0.017   1   1
+[1] 0
+[1] 0.014
+Latent variable covariance matrix is assumed to be the identity. This influences
+            FD and, in the case of categorical models, the omega indices.
+   ECV.G      PUC  Omega.G OmegaH.G     ARPB 
+   0.762    0.814    0.976    0.927    0.033 
+   ECV_SS ECV_SG ECV_GS Omega OmegaH     H    FD
+G   0.762  0.762  0.762 0.976  0.927 0.977 0.981
+KM  0.360  0.075  0.640 0.913  0.320 0.744 0.883
+IR  0.221  0.044  0.779 0.907  0.180 0.598 0.824
+AD  0.143  0.031  0.857 0.919  0.093 0.520 0.780
+PL  0.250  0.050  0.750 0.907  0.195 0.640 0.842
+PM  0.217  0.039  0.783 0.887  0.164 0.573 0.802
+       aG   aS     d    d1    d2 IECV
+PM01 1.68 0.21 -1.68    NA    NA 0.99
+PM02 1.99 1.02 -0.77    NA    NA 0.79
+PM03 1.05 0.42 -0.47    NA    NA 0.86
+PM04 1.95 0.15  0.74    NA    NA 0.99
+PM05 1.59 0.86  0.53    NA    NA 0.77
+PM06 1.72 0.82  1.06    NA    NA 0.81
+PM07 2.42 1.20  0.29    NA    NA 0.80
+PM08 0.48 1.11 -0.28    NA    NA 0.15
+PM09 0.86 0.86    NA  0.07 -1.65 0.49
+PM10 0.89 0.18    NA -0.18 -1.20 0.96
+PM11 0.95 0.11    NA  0.50 -0.62 0.99
+PM12 0.56 0.58    NA  0.43 -0.68 0.48
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.1548  0.6675  0.7911  0.7519  0.9498  0.9998 
+    G    KM    IR    AD    PL    PM 
+0.924 0.620 0.483 0.391 0.514 0.472 
+      total   uni     G
+total 1.000 0.984 0.974
+uni   0.984 1.000 0.994
+G     0.974 0.994 1.000
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept)   -0.006      0.019  -0.295    0.768
+G              0.507      0.020  24.761    0.000
+KM             0.019      0.025   0.759    0.448
+IR            -0.091      0.029  -3.185    0.001
+AD             0.025      0.032   0.772    0.440
+PL            -0.031      0.028  -1.118    0.264
+PM             0.213      0.029   7.402    0.000
+Analysis of Variance Table
+
+Model 1: z.nilai ~ G
+Model 2: z.nilai ~ G + KM + IR + AD + PL + PM
+  Res.Df    RSS Df Sum of Sq      F    Pr(>F)    
+1   1998 1509.0                                  
+2   1993 1452.5  5    56.431 15.486 5.701e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  R2.G R2.bif 
+ 0.245  0.273 
+chisq.scaled    df.scaled   cfi.scaled rmsea.scaled         srmr 
+    1709.375     1704.000        1.000        0.001        0.024 
+    rhs est.std    se pvalue
+121   G   0.504 0.019  0.000
+122  KM   0.019 0.026  0.470
+123  IR  -0.100 0.029  0.000
+124  AD   0.031 0.033  0.343
+125  PL  -0.032 0.028  0.247
+126  PM   0.221 0.028  0.000
+   rhs est.std    se pvalue
+61   U   0.502 0.018      0
+R2.bif R2.uni 
+ 0.315  0.252 
+(Intercept)           G          KM          IR          AD          PL 
+     -0.016       0.496       0.008      -0.054       0.006       0.004 
+         PM 
+      0.239 
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Golden Gate 27.0.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Makassar
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets 
+[7] methods   base     
+
+other attached packages:
+[1] lavaan_0.7-2                    BifactorIndicesCalculator_0.2.2
+[3] mirt_1.48                       lattice_0.22-9                 
+[5] openxlsx_4.2.8.1               
+
+loaded via a namespace (and not attached):
+ [1] gtable_0.3.6         quadprog_1.5-8       vctrs_0.7.3         
+ [4] tools_4.6.1          generics_0.1.4       parallel_4.6.1      
+ [7] tibble_3.3.1         proxy_0.4-29         cluster_2.1.8.2     
+[10] pkgconfig_2.0.3      R.oo_1.27.1          Matrix_1.7-5        
+[13] mirai_2.7.2          RcppParallel_6.2.0   lifecycle_1.0.5     
+[16] compiler_4.6.1       splines2_0.5.4       GPArotation_2026.7-1
+[19] brio_1.1.5           mnormt_2.1.2         codetools_0.2-20    
+[22] permute_0.9-10       dcurver_0.9.3        class_7.3-23        
+[25] pillar_1.11.1        MASS_7.3-65          R.utils_2.13.0      
+[28] vegan_2.7-5          sessioninfo_1.2.4    nlme_3.1-169        
+[31] parallelly_1.48.0    Deriv_4.3.0          qs2_0.2.2           
+[34] tidyselect_1.2.1     zip_3.0.1            digest_0.6.39       
+[37] stringi_1.8.7        future_1.75.0        dplyr_1.2.1         
+[40] listenv_1.0.0        splines_4.6.1        grid_4.6.1          
+[43] cli_3.6.6            beepr_2.0            magrittr_2.0.5      
+[46] future.apply_1.20.2  pbivnorm_0.6.0       e1071_1.7-17        
+[49] clipr_0.8.1          SimDesign_2.25       globals_0.19.1      
+[52] audio_0.1-12         otel_0.2.0           gridExtra_2.3.1     
+[55] progressr_1.0.0      R.methodsS3_1.8.2    stringfish_0.19.0   
+[58] pbapply_1.7-4        testthat_3.3.2       mgcv_1.9-4          
+[61] rlang_1.3.0          Rcpp_1.1.2           nanonext_1.10.1     
+[64] glue_1.8.1           R6_2.6.1            

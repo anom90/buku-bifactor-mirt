@@ -1,0 +1,90 @@
+Loading required package: stats4
+Loading required package: lattice
+[1] TRUE
+              AIC    SABIC       HQ      BIC    logLik      X2 df p
+mod.ord2 93406.45 93639.47 93609.62 93957.17 -46603.23             
+mod.bif  92852.82 93132.44 93096.62 93513.68 -46306.41 593.633 20 0
+ TP1  TP2  TP3  TP4  TP5  TP6  OR1  OR2  OR3  OR4  OR5  OR6  BH1  BH2 
+0.92 1.11 0.57 0.70 0.26 1.22 0.09 0.48 1.59 0.13 0.38 0.30 0.54 0.03 
+ BH3  BH4  BH5  BH6  PY1  PY2  PY3  PY4  PY5  PY6 
+0.11 0.56 0.47 0.09 0.35 0.52 0.20 1.33 0.25 2.13 
+   S1    S2    S3    S4 
+0.451 0.154 0.000 0.207 
+   S1    S2    S3    S4 
+0.830 0.931 1.000 0.910 
+Latent variable covariance matrix is assumed to be the identity. This influences
+            FD and, in the case of categorical models, the omega indices.
+Latent variable covariance matrix is assumed to be the identity. This influences
+            FD and, in the case of categorical models, the omega indices.
+   EM.OmegaH  EM.H MHRM.OmegaH MHRM.H
+G      0.781 0.879       0.773  0.870
+S1     0.029 0.395       0.071  0.322
+S2     0.485 0.650       0.490  0.687
+S3     0.396 0.474       0.391  0.503
+S4     0.125 0.251       0.112  0.232
+[1] TRUE
+Latent variable covariance matrix is assumed to be the identity. This influences
+            FD and, in the case of categorical models, the omega indices.
+   ECV_SS ECV_SG ECV_GS Omega OmegaH     H    FD
+G   0.652  0.652  0.652 0.881  0.777 0.871 0.927
+S1  0.646  0.176  0.354 0.753  0.473 0.646 0.837
+S2  0.642  0.121  0.358 0.620  0.401 0.478 0.707
+S3  0.207  0.051  0.793 0.716  0.118 0.263 0.576
+              AIC    SABIC       HQ      BIC    logLik     X2 df p
+mod.uni3 7379.867 7388.564 7460.290 7578.659 -3629.933            
+mod.tl   7305.269 7315.271 7397.756 7533.880 -3583.635 92.597  9 0
+[1] (4, a1, a2)  (5, a1, a2)  (6, a1, a2)  (7, a1, a3)  (8, a1, a3) 
+[6] (9, a1, a3)  (10, a1, a4) (11, a1, a4) (12, a1, a4)
+               AIC    SABIC       HQ      BIC    logLik    X2 df     p
+mod.o2.tl 7302.417 7311.550 7386.862 7511.149 -3588.209               
+mod.tl    7305.269 7315.271 7397.756 7533.880 -3583.635 9.148  6 0.165
+   S1    S2    S3 
+0.584 0.619 0.918 
+          M2 df     p RMSEA RMSEA_5 RMSEA_95 SRMSR   TLI CFI
+stats 36.442 45 0.815     0       0     0.03 0.038 1.011   1
+          M2 df     p RMSEA RMSEA_5 RMSEA_95 SRMSR   TLI CFI
+stats 46.077 51 0.669     0       0    0.037 0.047 1.006   1
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Golden Gate 27.0.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Makassar
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets 
+[7] methods   base     
+
+other attached packages:
+[1] BifactorIndicesCalculator_0.2.2 mirt_1.48                      
+[3] lattice_0.22-9                  openxlsx_4.2.8.1               
+
+loaded via a namespace (and not attached):
+ [1] GPArotation_2026.7-1 future_1.75.0        generics_0.1.4      
+ [4] class_7.3-23         stringi_1.8.7        listenv_1.0.0       
+ [7] digest_0.6.39        magrittr_2.0.5       grid_4.6.1          
+[10] splines2_0.5.4       beepr_2.0            qs2_0.2.2           
+[13] R.oo_1.27.1          Matrix_1.7-5         R.utils_2.13.0      
+[16] zip_3.0.1            sessioninfo_1.2.4    brio_1.1.5          
+[19] e1071_1.7-17         gridExtra_2.3.1      audio_0.1-12        
+[22] mgcv_1.9-4           dcurver_0.9.3        permute_0.9-10      
+[25] pbapply_1.7-4        codetools_0.2-20     cli_3.6.6           
+[28] rlang_1.3.0          R.methodsS3_1.8.2    parallelly_1.48.0   
+[31] future.apply_1.20.2  splines_4.6.1        otel_0.2.0          
+[34] vegan_2.7-5          tools_4.6.1          parallel_4.6.1      
+[37] dplyr_1.2.1          nanonext_1.10.1      globals_0.19.1      
+[40] Deriv_4.3.0          vctrs_0.7.3          R6_2.6.1            
+[43] proxy_0.4-29         lifecycle_1.0.5      stringfish_0.19.0   
+[46] SimDesign_2.25       MASS_7.3-65          cluster_2.1.8.2     
+[49] pkgconfig_2.0.3      clipr_0.8.1          gtable_0.3.6        
+[52] RcppParallel_6.2.0   progressr_1.0.0      pillar_1.11.1       
+[55] glue_1.8.1           Rcpp_1.1.2           tibble_3.3.1        
+[58] tidyselect_1.2.1     nlme_3.1-169         mirai_2.7.2         
+[61] testthat_3.3.2       compiler_4.6.1      

@@ -1,0 +1,132 @@
+Loading required package: stats4
+Loading required package: lattice
+kelompok
+  P   L 
+600 600 
+    P     L 
+23.89 26.49 
+    P     L 
+11.87 11.71 
+    group   name value   est
+207     L MEAN_1     0  TRUE
+208     L MEAN_2     0  TRUE
+209     L MEAN_3     0 FALSE
+210     L MEAN_4     0  TRUE
+211     L COV_11     1  TRUE
+215     L COV_22     1  TRUE
+218     L COV_33     1  TRUE
+220     L COV_44     1  TRUE
+[1] TRUE
+            AIC    SABIC       HQ      BIC    logLik      X2 df p
+mod.inv 37852.5 38003.68 38003.97 38254.61 -18847.25             
+mod.kfg 37817.9 38093.47 38094.00 38550.87 -18764.95 164.597 65 0
+              AIC    SABIC       HQ      BIC    logLik    X2 df     p
+mod.inv0 37848.76 37996.11 37996.40 38240.69 -18847.38               
+mod.inv  37852.50 38003.68 38003.97 38254.61 -18847.25 0.261  2 0.878
+     G     S1     S2     S3 
+ 0.254 -0.007  0.000  0.039 
+    G    S1    S2    S3 
+0.997 1.188 0.738 0.715 
+     G     S1     S2     S3 
+ 0.282  0.000 -0.077  0.001 
+rujukan.S2 rujukan.S1 
+ -18847.25  -18846.89 
+   butir bacaan     X2 df     p  LR.f
+1    B01      1  8.869  6 0.181 1.478
+2    B02      1  5.324  6 0.503 0.887
+3    B03      1  4.691  6 0.584 0.782
+4    B04      1 11.067  6 0.086 1.845
+5    B05      2 10.293  6 0.113 1.716
+6    B06      2 10.069  6 0.122 1.678
+7    B07      2 10.656  6 0.100 1.776
+8    B08      2 50.808  6 0.000 8.468
+9    B09      3  8.685  6 0.192 1.448
+10   B10      3 18.009  6 0.006 3.002
+11   B11      3  4.975  6 0.547 0.829
+12   B12      3 47.480  6 0.000 7.913
+[1] "B03" "B06" "B11"
+  butir     X2 df     p  p.BH
+1   B01  5.752  6 0.452 0.581
+2   B02  2.734  6 0.841 0.902
+3   B04  7.391  6 0.286 0.515
+4   B05  2.182  6 0.902 0.902
+5   B07 11.848  6 0.065 0.147
+6   B08 51.553  6 0.000 0.000
+7   B09  6.324  6 0.388 0.581
+8   B10 12.081  6 0.060 0.147
+9   B12 35.838  6 0.000 0.000
+[1] "B08" "B12"
+  butir parameter     X2 df     p
+1   B08        aG 38.698  1 0.000
+2   B08        aS 12.586  1 0.000
+3   B08         d 33.395  4 0.000
+4   B12        aG 16.274  1 0.000
+5   B12        aS 20.080  1 0.000
+6   B12         d 16.141  4 0.003
+[1] TRUE
+             AIC    SABIC       HQ      BIC    logLik     X2 df p
+mod.inv 37852.50 38003.68 38003.97 38254.61 -18847.25            
+mod.prs 37777.59 37951.73 37952.07 38240.78 -18797.79 98.912 12 0
+    MEAN_1 MEAN_2 MEAN_3 MEAN_4
+par  0.296 -0.058      0  0.021
+SE   0.082  0.107     NA  0.108
+
+Butir B08 
+    a1 a2   a3 a4   d1   d2    d3    d4
+P 2.39  0 1.94  0 3.36 1.18 -1.06 -3.15
+L 1.21  0 1.05  0 2.02 0.48 -0.95 -2.32
+
+Butir B12 
+    a1 a2 a3   a4   d1   d2    d3    d4
+P 2.66  0  0 2.23 3.33 1.17 -1.05 -3.33
+L 1.68  0  0 0.68 2.25 0.69 -0.85 -2.60
+    aG.ref aG.fok aS.ref aS.fok d.ref.1 d.fok.1
+B08   2.33   1.40   1.67   1.27       3    2.29
+B12   2.33   1.91   1.67   0.96       3    2.46
+  penuh.G parsial.G 
+    0.254     0.296 
+     L      P 
+ 0.196 -0.014 
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Golden Gate 27.0.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Makassar
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets 
+[7] methods   base     
+
+other attached packages:
+[1] mirt_1.48        lattice_0.22-9   openxlsx_4.2.8.1
+
+loaded via a namespace (and not attached):
+ [1] GPArotation_2026.7-1 future_1.75.0        generics_0.1.4      
+ [4] class_7.3-23         stringi_1.8.7        listenv_1.0.0       
+ [7] digest_0.6.39        magrittr_2.0.5       grid_4.6.1          
+[10] splines2_0.5.4       beepr_2.0            qs2_0.2.2           
+[13] R.oo_1.27.1          Matrix_1.7-5         R.utils_2.13.0      
+[16] zip_3.0.1            sessioninfo_1.2.4    brio_1.1.5          
+[19] e1071_1.7-17         gridExtra_2.3.1      audio_0.1-12        
+[22] mgcv_1.9-4           dcurver_0.9.3        permute_0.9-10      
+[25] pbapply_1.7-4        codetools_0.2-20     cli_3.6.6           
+[28] rlang_1.3.0          R.methodsS3_1.8.2    parallelly_1.48.0   
+[31] future.apply_1.20.2  splines_4.6.1        otel_0.2.0          
+[34] vegan_2.7-5          tools_4.6.1          parallel_4.6.1      
+[37] dplyr_1.2.1          nanonext_1.10.1      globals_0.19.1      
+[40] Deriv_4.3.0          vctrs_0.7.3          R6_2.6.1            
+[43] proxy_0.4-29         lifecycle_1.0.5      stringfish_0.19.0   
+[46] SimDesign_2.25       MASS_7.3-65          cluster_2.1.8.2     
+[49] pkgconfig_2.0.3      clipr_0.8.1          gtable_0.3.6        
+[52] RcppParallel_6.2.0   progressr_1.0.0      pillar_1.11.1       
+[55] glue_1.8.1           Rcpp_1.1.2           tibble_3.3.1        
+[58] tidyselect_1.2.1     nlme_3.1-169         mirai_2.7.2         
+[61] testthat_3.3.2       compiler_4.6.1      

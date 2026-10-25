@@ -1,0 +1,132 @@
+Loading required package: stats4
+Loading required package: lattice
+Warning message:
+Log-likelihood was decreasing near the ML solution. EM method may be unstable 
+      T1_1  T1_2  T1_3  T1_4  T1_5
+T1_1  1.00 -0.02  0.00  0.00 -0.01
+T1_2 -0.02  1.00 -0.03 -0.02 -0.01
+T1_3  0.00 -0.03  1.00  0.04  0.00
+T1_4  0.00 -0.02  0.04  1.00 -0.04
+T1_5 -0.01 -0.01  0.00 -0.04  1.00
+     T5_1 T5_2 T5_3 T5_4 T5_5
+T5_1 1.00 0.11 0.16 0.22 0.21
+T5_2 0.11 1.00 0.21 0.22 0.16
+T5_3 0.16 0.21 1.00 0.29 0.22
+T5_4 0.22 0.22 0.29 1.00 0.23
+T5_5 0.21 0.16 0.22 0.23 1.00
+[1] TRUE TRUE TRUE TRUE
+             AIC    SABIC       HQ      BIC    logLik       X2 df p
+mod.uni 49685.28 49806.47 49788.11 49965.32 -24792.64              
+mod.tl  48088.22 48221.54 48201.33 48396.28 -23989.11 1607.054  5 0
+             AIC    SABIC       HQ      BIC    logLik      X2 df p
+mod.rtl 48445.39 48520.53 48509.14 48619.02 -24191.69             
+mod.tl  48088.22 48221.54 48201.33 48396.28 -23989.11 405.163 24 0
+             AIC    SABIC       HQ      BIC    logLik     X2 df p
+mod.tl  48088.22 48221.54 48201.33 48396.28 -23989.11            
+mod.bif 47925.83 48107.62 48080.07 48345.90 -23887.92 202.39 20 0
+    G    S1    S2    S3    S4    S5 
+1.000 0.000 0.111 0.433 0.713 1.145 
+    G    S1    S2    S3    S4    S5 
+2.586 0.000 0.242 1.280 2.269 3.421 
+              1      2      3      4      5
+uni      -0.188 -0.131 -0.208 -0.237 -0.291
+testlet  -0.065  0.026  0.046  0.041  0.051
+bifaktor  0.017  0.011  0.028  0.032  0.046
+             uni testlet bifaktor
+dilaporkan 0.885   0.847    0.849
+sebenarnya 0.837   0.851    0.854
+        a1     a2      d
+T1_1 0.954  0.076 -2.419
+T1_2 1.352 -0.103 -0.954
+T1_3 2.027  1.254 -0.050
+T1_4 2.010  0.279  0.888
+T1_5 2.239  0.093  2.535
+                AIC    SABIC       HQ      BIC    logLik    X2 df     p
+mod.bif.tl 47920.38 48090.05 48064.33 48312.44 -23890.19               
+mod.bif    47925.83 48107.62 48080.07 48345.90 -23887.92 4.542  5 0.474
+           M2  df     p RMSEA RMSEA_5 RMSEA_95 SRMSR TLI CFI
+stats 243.557 255 0.686     0       0    0.007 0.015   1   1
+           M2  df p RMSEA RMSEA_5 RMSEA_95 SRMSR   TLI   CFI
+stats 445.206 270 0 0.018   0.015    0.021 0.028 0.994 0.995
+Warning message:
+Observed log-likelihood may still be increasing.
+  Final log-likelihood values were: 
+  -39902.552, -39902.55, -39902.549 
+Warning messages:
+1: Observed log-likelihood may still be increasing.
+  Final log-likelihood values were: 
+  -39706.005, -39706.006, -39706.007 
+2: Log-likelihood was decreasing near the ML solution. EM method may be unstable 
+[1] TRUE TRUE TRUE
+              AIC    SABIC       HQ      BIC    logLik     X2 df p
+mod.kor5 79903.10 80041.72 80008.96 80197.41 -39902.55            
+mod.2t   79550.02 79745.21 79699.09 79964.46 -39706.01 393.08 20 0
+              AIC    SABIC       HQ      BIC    logLik      X2 df p
+mod.bif5 79789.45 79981.82 79936.36 80197.88 -39826.72             
+mod.2t   79550.02 79745.21 79699.09 79964.46 -39706.01 241.429  1 0
+       MAT  BACA
+MAT  1.000 0.789
+BACA 0.789 1.000
+       MAT  BACA
+MAT  1.000 0.818
+BACA 0.818 1.000
+      a1   a2   a3   a5     d
+MA1 2.06 0.00 0.29 0.00  1.66
+MA2 2.24 0.00 0.11 0.00 -0.05
+MA3 0.79 0.00 0.08 0.00 -0.91
+MA4 0.57 0.00 0.31 0.00  0.21
+ML1 0.55 0.00 0.00 0.00 -0.96
+ML2 1.62 0.00 0.00 0.00  1.54
+ML3 2.06 0.00 0.00 0.00 -0.41
+ML4 1.30 0.00 0.00 0.00  1.65
+BA1 0.00 1.72 0.00 0.08  0.37
+BA2 0.00 1.91 0.00 1.36  0.07
+BA3 0.00 1.63 0.00 0.90  0.07
+BA4 0.00 0.69 0.00 1.09 -2.09
+  MAT  BACA    S1    S2    S3    S4    S5 
+0.808 0.773 0.030 0.260 0.285 0.273 0.250 
+           M2  df     p RMSEA RMSEA_5 RMSEA_95 SRMSR   TLI CFI
+stats 217.786 231 0.724     0       0    0.006 0.014 1.001   1
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Golden Gate 27.0.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Makassar
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets 
+[7] methods   base     
+
+other attached packages:
+[1] mirt_1.48        lattice_0.22-9   openxlsx_4.2.8.1
+
+loaded via a namespace (and not attached):
+ [1] GPArotation_2026.7-1 future_1.75.0        generics_0.1.4      
+ [4] class_7.3-23         stringi_1.8.7        listenv_1.0.0       
+ [7] digest_0.6.39        magrittr_2.0.5       grid_4.6.1          
+[10] splines2_0.5.4       beepr_2.0            qs2_0.2.2           
+[13] R.oo_1.27.1          Matrix_1.7-5         R.utils_2.13.0      
+[16] zip_3.0.1            sessioninfo_1.2.4    brio_1.1.5          
+[19] e1071_1.7-17         gridExtra_2.3.1      audio_0.1-12        
+[22] mgcv_1.9-4           dcurver_0.9.3        permute_0.9-10      
+[25] pbapply_1.7-4        codetools_0.2-20     cli_3.6.6           
+[28] rlang_1.3.0          R.methodsS3_1.8.2    parallelly_1.48.0   
+[31] future.apply_1.20.2  splines_4.6.1        otel_0.2.0          
+[34] vegan_2.7-5          tools_4.6.1          parallel_4.6.1      
+[37] dplyr_1.2.1          nanonext_1.10.1      globals_0.19.1      
+[40] Deriv_4.3.0          vctrs_0.7.3          R6_2.6.1            
+[43] proxy_0.4-29         lifecycle_1.0.5      stringfish_0.19.0   
+[46] SimDesign_2.25       MASS_7.3-65          cluster_2.1.8.2     
+[49] pkgconfig_2.0.3      clipr_0.8.1          gtable_0.3.6        
+[52] RcppParallel_6.2.0   progressr_1.0.0      pillar_1.11.1       
+[55] glue_1.8.1           Rcpp_1.1.2           tibble_3.3.1        
+[58] tidyselect_1.2.1     nlme_3.1-169         mirai_2.7.2         
+[61] testthat_3.3.2       compiler_4.6.1      

@@ -1,0 +1,258 @@
+Loading required package: stats4
+Loading required package: lattice
+[1] 899  21
+
+Call:
+bfactor(data = butir, model = spesifik, SE = TRUE, verbose = FALSE)
+
+Full-information item factor analysis with 4 factor(s).
+Converged within 1e-04 tolerance after 50 EM iterations.
+mirt version: 1.48 
+M-step optimizer: BFGS 
+EM acceleration: Ramsay 
+Number of rectangular quadrature: 31
+Latent density type: bfactor 
+
+Information matrix estimated with method: Oakes
+Second-order test: model is a possible local maximum
+Condition number of information matrix =  34.60716
+
+Log-likelihood = -10637.44
+Estimated parameters: 63 
+AIC = 21400.88
+BIC = 21703.36; SABIC = 21503.28
+G2 (2097088) = 9133.54, p = 1
+RMSEA = 0, CFI = NaN, TLI = NaN
+TOTAL:   Data  Estep  Mstep     SE   Post 
+ 8.871  0.025  2.284  0.667  5.826  0.001 
+$items
+        a1    a2     a3     a4      d g u
+ALJ1 1.316 1.213  0.000  0.000 -0.496 0 1
+ALJ2 2.519 0.278  0.000  0.000 -0.668 0 1
+ALJ3 1.097 0.116  0.000  0.000  0.931 0 1
+ALJ4 0.517 0.902  0.000  0.000  0.149 0 1
+ALJ5 0.417 0.539  0.000  0.000  0.773 0 1
+ALJ6 0.639 1.351  0.000  0.000  0.495 0 1
+ALJ7 1.760 1.518  0.000  0.000 -0.667 0 1
+GEO1 0.625 0.000 -0.068  0.000 -0.466 0 1
+GEO2 0.636 0.000  0.559  0.000  0.853 0 1
+GEO3 1.102 0.000  0.083  0.000  1.178 0 1
+GEO4 1.337 0.000  1.348  0.000 -1.324 0 1
+GEO5 1.102 0.000  0.999  0.000  0.178 0 1
+GEO6 2.140 0.000  1.469  0.000 -1.485 0 1
+GEO7 1.443 0.000  1.214  0.000  1.503 0 1
+TRG1 1.752 0.000  0.000  1.094 -0.891 0 1
+TRG2 1.389 0.000  0.000  0.932  1.800 0 1
+TRG3 2.153 0.000  0.000  0.221  0.270 0 1
+TRG4 0.794 0.000  0.000  0.139  0.967 0 1
+TRG5 1.363 0.000  0.000 -0.149 -1.083 0 1
+TRG6 1.301 0.000  0.000  1.009 -0.468 0 1
+TRG7 0.598 0.000  0.000  1.350 -2.032 0 1
+
+$means
+ G S1 S2 S3 
+ 0  0  0  0 
+
+$cov
+   G S1 S2 S3
+G  1  0  0  0
+S1 0  1  0  0
+S2 0  0  1  0
+S3 0  0  0  1
+
+       a1    a2 a3 a4      d logit(g) logit(u)
+par 1.316 1.213  0  0 -0.496     -999      999
+SE  0.148 0.198 NA NA  0.108       NA       NA
+          G     S1     S2     S3  SE_G SE_S1 SE_S2 SE_S3
+[1,]  1.023  0.169  0.799  0.225 0.470 0.731 0.798 0.785
+[2,]  0.178 -0.531  0.833  1.399 0.418 0.696 0.728 0.737
+[3,]  1.720  0.113 -0.269  0.833 0.557 0.775 0.792 0.845
+[4,] -0.484 -0.389 -1.047 -0.110 0.443 0.725 0.788 0.808
+[5,]  0.063 -0.332 -1.350  0.237 0.416 0.688 0.774 0.771
+[6,] -0.191 -0.567  0.841  0.798 0.417 0.708 0.728 0.769
+
+Call:
+bfactor(data = butir3, model = spesifik, guess = 0.2, SE = TRUE, 
+    verbose = FALSE)
+
+Full-information item factor analysis with 4 factor(s).
+Converged within 1e-04 tolerance after 133 EM iterations.
+mirt version: 1.48 
+M-step optimizer: BFGS 
+EM acceleration: Ramsay 
+Number of rectangular quadrature: 31
+Latent density type: bfactor 
+
+Information matrix estimated with method: Oakes
+Second-order test: model is a possible local maximum
+Condition number of information matrix =  110.2011
+
+Log-likelihood = -24262.31
+Estimated parameters: 63 
+AIC = 48650.61
+BIC = 49003.47; SABIC = 48803.31
+G2 (2097088) = 19018.4, p = 1
+RMSEA = 0, CFI = NaN, TLI = NaN
+$items
+        a1     a2    a3    a4      d   g u
+ALJ1 2.379 -0.101 0.000 0.000  1.234 0.2 1
+ALJ2 1.226  1.216 0.000 0.000  0.782 0.2 1
+ALJ3 1.702  0.531 0.000 0.000  1.286 0.2 1
+ALJ4 1.898  0.918 0.000 0.000 -0.558 0.2 1
+ALJ5 0.558  1.309 0.000 0.000  0.009 0.2 1
+ALJ6 0.708  0.472 0.000 0.000 -1.853 0.2 1
+ALJ7 1.781  0.855 0.000 0.000  0.864 0.2 1
+GEO1 1.175  0.000 0.301 0.000  0.319 0.2 1
+GEO2 2.659  0.000 0.900 0.000 -1.909 0.2 1
+GEO3 2.107  0.000 0.768 0.000 -1.344 0.2 1
+GEO4 1.630  0.000 0.874 0.000  0.536 0.2 1
+GEO5 2.678  0.000 1.374 0.000 -0.736 0.2 1
+GEO6 2.119  0.000 0.658 0.000 -1.221 0.2 1
+GEO7 1.462  0.000 0.984 0.000  1.143 0.2 1
+TRG1 0.837  0.000 0.000 0.507  1.217 0.2 1
+TRG2 2.187  0.000 0.000 1.689  1.044 0.2 1
+TRG3 1.751  0.000 0.000 0.487 -0.718 0.2 1
+TRG4 1.693  0.000 0.000 0.553  0.665 0.2 1
+TRG5 0.636  0.000 0.000 0.735 -0.021 0.2 1
+TRG6 0.567  0.000 0.000 0.247  1.050 0.2 1
+TRG7 0.815  0.000 0.000 0.678 -0.164 0.2 1
+
+$means
+ G S1 S2 S3 
+ 0  0  0  0 
+
+$cov
+   G S1 S2 S3
+G  1  0  0  0
+S1 0  1  0  0
+S2 0  0  1  0
+S3 0  0  0  1
+
+
+Call:
+bfactor(data = butirr, model = spesifik, model2 = kendala.rasch, 
+    SE = TRUE, verbose = FALSE)
+
+Full-information item factor analysis with 4 factor(s).
+Converged within 1e-04 tolerance after 113 EM iterations.
+mirt version: 1.48 
+M-step optimizer: nlminb 
+EM acceleration: Ramsay 
+Number of rectangular quadrature: 31
+Latent density type: bfactor 
+
+Information matrix estimated with method: Oakes
+Second-order test: model is a possible local maximum
+Condition number of information matrix =  7.85804
+
+Log-likelihood = -10919.67
+Estimated parameters: 25 
+AIC = 21889.35
+BIC = 22009.38; SABIC = 21929.98
+G2 (2097126) = 9682.05, p = 1
+RMSEA = 0, CFI = NaN, TLI = NaN
+$items
+     a1 a2 a3 a4      d g u
+ALJ1  1  1  0  0  1.331 0 1
+ALJ2  1  1  0  0 -1.800 0 1
+ALJ3  1  1  0  0  0.504 0 1
+ALJ4  1  1  0  0 -2.037 0 1
+ALJ5  1  1  0  0  0.574 0 1
+ALJ6  1  1  0  0 -1.172 0 1
+ALJ7  1  1  0  0  0.527 0 1
+GEO1  1  0  1  0  0.215 0 1
+GEO2  1  0  1  0 -1.550 0 1
+GEO3  1  0  1  0  0.304 0 1
+GEO4  1  0  1  0  0.380 0 1
+GEO5  1  0  1  0 -0.206 0 1
+GEO6  1  0  1  0  0.203 0 1
+GEO7  1  0  1  0  0.209 0 1
+TRG1  1  0  0  1 -0.324 0 1
+TRG2  1  0  0  1  0.064 0 1
+TRG3  1  0  0  1 -0.400 0 1
+TRG4  1  0  0  1  0.855 0 1
+TRG5  1  0  0  1  1.015 0 1
+TRG6  1  0  0  1  1.175 0 1
+TRG7  1  0  0  1  1.015 0 1
+
+$means
+ G S1 S2 S3 
+ 0  0  0  0 
+
+$cov
+       G    S1    S2    S3
+G  0.967 0.000 0.000 0.000
+S1 0.000 0.368 0.000 0.000
+S2 0.000 0.000 1.267 0.000
+S3 0.000 0.000 0.000 0.432
+
+
+Call:
+bfactor(data = butirr, model = spesifik, model2 = kendala.1pl, 
+    SE = TRUE, verbose = FALSE)
+
+Full-information item factor analysis with 4 factor(s).
+Converged within 1e-04 tolerance after 19 EM iterations.
+mirt version: 1.48 
+M-step optimizer: BFGS 
+EM acceleration: Ramsay 
+Number of rectangular quadrature: 31
+Latent density type: bfactor 
+
+Information matrix estimated with method: Oakes
+Second-order test: model is a possible local maximum
+Condition number of information matrix =  26.03549
+
+Log-likelihood = -10919.67
+Estimated parameters: 25 
+AIC = 21889.34
+BIC = 22009.38; SABIC = 21929.98
+G2 (2097126) = 9682.05, p = 1
+RMSEA = 0, CFI = NaN, TLI = NaN
+        a1    a2    a3    a4      d g u
+ALJ1 0.984 0.604 0.000 0.000  1.331 0 1
+GEO1 0.984 0.000 1.126 0.000  0.216 0 1
+TRG1 0.984 0.000 0.000 0.658 -0.324 0 1
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Golden Gate 27.0.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Makassar
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+[1] mirt_1.48        lattice_0.22-9   openxlsx_4.2.8.1
+
+loaded via a namespace (and not attached):
+ [1] GPArotation_2026.7-1 future_1.75.0        generics_0.1.4      
+ [4] class_7.3-23         stringi_1.8.7        listenv_1.0.0       
+ [7] digest_0.6.39        magrittr_2.0.5       grid_4.6.1          
+[10] splines2_0.5.4       beepr_2.0            qs2_0.2.2           
+[13] R.oo_1.27.1          Matrix_1.7-5         R.utils_2.13.0      
+[16] zip_3.0.1            sessioninfo_1.2.4    brio_1.1.5          
+[19] e1071_1.7-17         gridExtra_2.3.1      audio_0.1-12        
+[22] mgcv_1.9-4           dcurver_0.9.3        permute_0.9-10      
+[25] pbapply_1.7-4        codetools_0.2-20     cli_3.6.6           
+[28] rlang_1.3.0          R.methodsS3_1.8.2    parallelly_1.48.0   
+[31] future.apply_1.20.2  splines_4.6.1        otel_0.2.0          
+[34] vegan_2.7-5          tools_4.6.1          parallel_4.6.1      
+[37] dplyr_1.2.1          nanonext_1.10.1      globals_0.19.1      
+[40] Deriv_4.3.0          vctrs_0.7.3          R6_2.6.1            
+[43] proxy_0.4-29         lifecycle_1.0.5      stringfish_0.19.0   
+[46] SimDesign_2.25       MASS_7.3-65          cluster_2.1.8.2     
+[49] pkgconfig_2.0.3      clipr_0.8.1          gtable_0.3.6        
+[52] RcppParallel_6.2.0   progressr_1.0.0      pillar_1.11.1       
+[55] glue_1.8.1           Rcpp_1.1.2           tibble_3.3.1        
+[58] tidyselect_1.2.1     nlme_3.1-169         mirai_2.7.2         
+[61] testthat_3.3.2       compiler_4.6.1      
